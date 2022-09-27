@@ -1,0 +1,22 @@
+To git@github.com:myrepo.git
+ ! [rejected]        development -> development (non-fast-forward)
+error: failed to push some refs to 'git@github.com:myrepo.git'
+To prevent you from losing history, non-fast-forward updates were rejected
+Merge the remote changes (e.g. 'git pull') before pushing again.  See the
+'Note about fast-forwards' section of 'git push --help' for details.
+
+#git pull origin
+#git push -f origin master
+
+
+#D:\Projects\wamp\www\REPO [master]> git pull origin master
+Warning: Permanently added 'github.com,192.30.252.128' (RSA) to the list of known hosts.
+ERROR: Repository not found.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+## git remote -v
+#then if https then user and password promont
+# if ssh protocal then required .key.pub past to github account
